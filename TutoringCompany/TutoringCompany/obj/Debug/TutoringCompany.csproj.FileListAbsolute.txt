@@ -1,0 +1,7 @@
+C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\bin\Debug\TutoringCompany.dll.config
+C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\bin\Debug\TutoringCompany.dll
+C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\bin\Debug\TutoringCompany.pdb
+C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\obj\Debug\TutoringCompany.csproj.AssemblyReference.cache
+C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\obj\Debug\TutoringCompany.csproj.CoreCompileInputs.cache
+C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\obj\Debug\TutoringCompany.dll
+C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\obj\Debug\TutoringCompany.pdb
