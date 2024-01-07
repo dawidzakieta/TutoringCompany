@@ -78,3 +78,34 @@ C:\Users\Dell Precision\OneDrive\Pulpit\giTut\TutoringCompany\TutoringCompanyGUI
 C:\Users\Dell Precision\OneDrive\Pulpit\giTut\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\TutoringCompanyGUI.csproj.CopyComplete
 C:\Users\Dell Precision\OneDrive\Pulpit\giTut\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\TutoringCompanyGUI.exe
 C:\Users\Dell Precision\OneDrive\Pulpit\giTut\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\TutoringCompanyGUI.pdb
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\bin\Debug\TutoringCompanyGUI.exe.config
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\bin\Debug\TutoringCompanyGUI.exe
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\bin\Debug\TutoringCompanyGUI.pdb
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\bin\Debug\TutoringCompany.dll
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\bin\Debug\TutoringCompany.pdb
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\bin\Debug\TutoringCompany.dll.config
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\TutoringCompanyGUI.csproj.AssemblyReference.cache
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\TutoringCompanyGUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\Styles.baml
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\TitleGrid.baml
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\AddClient.g.cs
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\AddTutor.g.cs
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\Clients.g.cs
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\MainWindow.g.cs
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\Tutors.g.cs
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\App.g.cs
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\TutoringCompanyGUI_MarkupCompile.cache
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\TutoringCompanyGUI_MarkupCompile.lref
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\AddClient.baml
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\AddTutor.baml
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\Clients.baml
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\MainWindow.baml
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\Tutors.baml
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\TutoringCompanyGUI.g.resources
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\TutoringCompanyGUI.Properties.Resources.resources
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\TutoringCompanyGUI.csproj.GenerateResource.cache
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\TutoringCompanyGUI.csproj.CoreCompileInputs.cache
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\TutoringCompanyGUI.csproj.CopyComplete
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\TutoringCompanyGUI.exe
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\TutoringCompanyGUI.pdb

@@ -20,6 +20,7 @@ namespace TutoringCompanyGUI {
 
         public Clients(ClientList clientList) {
             InitializeComponent();
+
             TitleBar(TitleContent, "Clients");
 
             this.clientList = clientList ?? new ClientList();
@@ -50,9 +51,10 @@ namespace TutoringCompanyGUI {
         private void searchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             string searchText = searchBox.Text.ToLower();
-
-            if (clientList != null)
-            {
+            
+            if (searchText == "search clients") return;
+            
+            if (clientList != null) {
                 var filteredClients = clientList.Clients
                     .Where(client =>
                         client.Name.ToLower().Contains(searchText) ||
@@ -62,10 +64,18 @@ namespace TutoringCompanyGUI {
 
                 clientsListBox.ItemsSource = new ObservableCollection<Client>(filteredClients.ToList());
             }
-            else
-            {
-                clientsListBox.ItemsSource = null;
+            else clientsListBox.ItemsSource = null;
+        }
+     /*   #region TextBox
+        private void TextBox_GotFocus(object sender, RoutedEventArgs e) {
+            if (searchBox.Text == "Search clients") { searchBox.Text = ""; }
+        }
+        private void TextBox_LostFocus(object sender, RoutedEventArgs e) {
+            if (string.IsNullOrWhiteSpace(searchBox.Text)) {
+                searchBox.Text = "Search clients";
             }
         }
+        #endregion
+        */
     }
 }
