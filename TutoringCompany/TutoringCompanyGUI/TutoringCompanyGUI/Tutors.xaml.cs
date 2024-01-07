@@ -32,7 +32,7 @@ namespace TutoringCompanyGUI
 
         private void addTutor_Click(object sender, RoutedEventArgs e)
         {
-            AddTutor addTutorWindow = new AddTutor(tutorList);
+            AddTutor addTutorWindow = new AddTutor(tutorList, tutorsListBox);
             addTutorWindow.Show();
         }
 
