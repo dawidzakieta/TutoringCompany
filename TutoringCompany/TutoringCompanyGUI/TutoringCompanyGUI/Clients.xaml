@@ -40,7 +40,7 @@
             <ListBox x:Name="clientsListBox" ItemTemplate="{StaticResource ClientTemplate}"           Style="{StaticResource Theme}" FontSize="14" Margin="0, 0, 0, 40" Width="550" Height="270" VerticalAlignment="Bottom" BorderThickness="0"/>
             <Button x:Name="addClient"    Content="Add Client"    Click="addClient_Click"    Width="200" HorizontalAlignment="Left"  Margin="70, 70, 0, 0" Style="{StaticResource MainButtons}"/>
             <Button x:Name="deleteClient" Content="Delete Client" Click="deleteClient_Click" Width="200" HorizontalAlignment="Right" Margin="0, 70, 70, 0" Style="{StaticResource MainButtons}"/>
-            <TextBox x:Name="searchBox"   Text="Search clients"   TextChanged="searchBox_TextChanged"  Style="{StaticResource Theme}" Background="#201c24" Width="550" Height="40" Margin="0,15,0,0" VerticalAlignment="Top" BorderThickness="0"/>
+            <TextBox x:Name="searchBox"   Text="Search clients"   TextChanged="searchBox_TextChanged"  Style="{StaticResource Theme}" Background="#201c24" Width="550" Height="40" Margin="0,15,0,0" VerticalAlignment="Top" BorderThickness="0" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"/>
             <!--TextBox : GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"-->
         </Grid>
     </Grid>
