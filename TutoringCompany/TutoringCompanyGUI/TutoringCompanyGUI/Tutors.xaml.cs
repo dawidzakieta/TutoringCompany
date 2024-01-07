@@ -70,5 +70,10 @@ namespace TutoringCompanyGUI
                 tutorsListBox.ItemsSource = null;
             }
         }
+        #region TextBox
+        private void TextBox_GotFocus(object sender, RoutedEventArgs e) {
+            if (searchBox.Text == "Search Tutors") { searchBox.Text = ""; }
+        }
+        #endregion
     }
 }
