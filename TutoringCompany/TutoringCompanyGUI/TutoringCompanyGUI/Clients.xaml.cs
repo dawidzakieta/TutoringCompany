@@ -30,7 +30,7 @@ namespace TutoringCompanyGUI {
 
         private void addClient_Click(object sender, RoutedEventArgs e)
         {
-            AddClient addClientWindow = new AddClient(clientList);
+            AddClient addClientWindow = new AddClient(clientList, clientsListBox);
             addClientWindow.Show();
         }
 
@@ -61,12 +61,11 @@ namespace TutoringCompanyGUI {
                         client.Surname.ToLower().Contains(searchText) ||
                         client.PhoneNumber.Contains(searchText) ||
                         client.Email.ToLower().Contains(searchText));
-
                 clientsListBox.ItemsSource = new ObservableCollection<Client>(filteredClients.ToList());
             }
             else clientsListBox.ItemsSource = null;
         }
-     /*   #region TextBox
+       #region TextBox
         private void TextBox_GotFocus(object sender, RoutedEventArgs e) {
             if (searchBox.Text == "Search clients") { searchBox.Text = ""; }
         }
@@ -76,6 +75,6 @@ namespace TutoringCompanyGUI {
             }
         }
         #endregion
-        */
+        
     }
 }

@@ -22,30 +22,16 @@ namespace TutoringCompanyGUI
     {
         
         private ClientList clientList;
+        private ListBox clientsListBox;
 
-        public AddClient(ClientList clientList)
+        public AddClient(ClientList clientList, ListBox clientsListBox)
         {
             InitializeComponent();
             TitleBar(TitleContent, "Add clients");
 
             this.clientList = clientList;
+            this.clientsListBox = clientsListBox;
         }
-        /*
-        private void addClient1_Click(object sender, RoutedEventArgs e)
-        {
-            decimal rate1value;
-            if (decimal.TryParse(rate1.Text, out rate1value))
-            {
-                Client newClient = new Client(name1.Text, phone1.Text, rate1value);
-                clientList.AddClient(newClient);
-                MessageBox.Show("Client added correctly.");
-            }
-            else
-            {
-                MessageBox.Show("Invalid value for hour rate. Please enter a valid decimal number.");
-            }
-        }
-        */
         private void addClient2_Click(object sender, RoutedEventArgs e)
         {
             decimal rate2Value;
@@ -53,6 +39,7 @@ namespace TutoringCompanyGUI
             {
                 Client newClient = new Client(clientName.Text, clientSurname.Text, rate2Value, clientPhone.Text, clientEmail.Text, (Gender)Enum.Parse(typeof(Gender), ((ComboBoxItem)clientGender.SelectedItem).Content.ToString()));
                 clientList.AddClient(newClient);
+                clientsListBox.ItemsSource = new ObservableCollection<Client>(clientList.Clients);
                 MessageBox.Show("Client added correctly.");
             }
             else
