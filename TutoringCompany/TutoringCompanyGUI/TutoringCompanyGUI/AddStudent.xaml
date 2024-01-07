@@ -10,6 +10,15 @@
                 WindowStyle="None" AllowsTransparency="True">
     <Window.Resources>
         <ResourceDictionary>
+            <DataTemplate x:Key="AddStudentTemplate">
+                <StackPanel Margin="0,3,0,0">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Id, StringFormat={}ID: {0}}" FontWeight="Bold" Margin="0, 0, 5, 0"/>
+                        <TextBlock Text="{Binding Name}" Margin="0, 0, 5, 0"/>
+                        <TextBlock Text="{Binding Surname}" />
+                    </StackPanel>
+                </StackPanel>
+            </DataTemplate>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Styles.xaml"/>
                 <ResourceDictionary Source="TitleGrid.xaml"/>
@@ -207,7 +216,11 @@
             <TextBox x:Name="studentName" HorizontalAlignment="Left" Margin="200,21,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" Height="40" FontSize="18"/>
             <TextBox x:Name="studentSurname" HorizontalAlignment="Left" Margin="200,82,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" Height="40" FontSize="18"/>
             <TextBox x:Name="studentPhone" HorizontalAlignment="Left" Margin="200,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" Height="40" FontSize="18"/>
-            <TextBox x:Name="studentClient" HorizontalAlignment="Left" Margin="200,204,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" Height="40" FontSize="18" />
+            <ComboBox x:Name="studentClient" HorizontalAlignment="Left" Margin="200,204,0,0" 
+              SelectedItem="{Binding Client}" VerticalAlignment="Top" Width="300" Height="40" FontSize="18" 
+              IsEditable="True" TextSearch.TextPath="FullName" StaysOpenOnEdit="True" 
+              IsTextSearchEnabled="False" KeyUp="studentClient_KeyUp"
+              ItemTemplate="{StaticResource AddStudentTemplate}" />
             <TextBox x:Name="studentTutor" HorizontalAlignment="Left" Margin="200,265,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" Height="40" FontSize="18" />
             <TextBox x:Name="studentClass" HorizontalAlignment="Left" Margin="200,326,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" Height="40" FontSize="18"/>
             <ComboBox x:Name="studentGender" HorizontalAlignment="Left" Margin="200,387,0,0" SelectedItem="{Binding Gender}"  VerticalAlignment="Top" Width="300" Height="40" FontSize="18">
