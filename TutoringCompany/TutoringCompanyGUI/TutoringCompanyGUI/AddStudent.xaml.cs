@@ -35,18 +35,27 @@ namespace TutoringCompanyGUI
         }
         private void addStudent2_Click(object sender, RoutedEventArgs e)
         {
-            Student newStudent = new Student(studentName.Text, studentSurname.Text, studentPhone.Text, (Class)Enum.Parse(typeof(Class), studentClass.Text), Client(studentClient), Tutor(studentTutor),(Gender)Enum.Parse(typeof(Gender), ((ComboBoxItem)studentGender.SelectedItem).Content.ToString()));
+            Student newStudent = new Student(studentName.Text, studentSurname.Text, studentPhone.Text, (Class)Enum.Parse(typeof(Class), studentClass.Text), (Client)studentClient.SelectedItem, Tutor(studentTutor),(Gender)Enum.Parse(typeof(Gender), ((ComboBoxItem)studentGender.SelectedItem).Content.ToString()));
             studentList.AddStudent(newStudent);
             studentsListBox.ItemsSource = new ObservableCollection<Student>(studentList.Students);
             MessageBox.Show("Student added correctly.");
         }
+        private void studentClient_KeyUp(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            var filter = studentClient.Text.ToLower();
+            var filteredData = clientList.Clients
+                .Where(client => client.Name.ToLower().Contains(filter) || client.Surname.ToLower().Contains(filter)).ToList();
+            studentClient.ItemsSource = filteredData;
+            studentClient.IsDropDownOpen = true;
+        }
 
         private Tutor Tutor(TextBox studentTutor)
         {
+            
             throw new NotImplementedException();
         }
-
-        private Client Client(TextBox studentClient)
+        
+        private Client Client(ComboBox studentClient)
         {
             throw new NotImplementedException();
         }
