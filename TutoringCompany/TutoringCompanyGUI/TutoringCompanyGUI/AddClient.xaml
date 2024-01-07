@@ -74,7 +74,7 @@
                     <Setter Property="FontSize" Value="14"/>
                     <Setter Property="Background" Value="#403c44"/>
                     <Setter Property="BorderThickness" Value="0"/>
-                    <Setter Property="TextAlignment" Value="Center"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
                 </Style>
                 <Style TargetType="Label">
                     <Setter Property="Foreground" Value="White"/>
