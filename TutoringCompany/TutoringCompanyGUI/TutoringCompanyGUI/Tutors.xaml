@@ -8,6 +8,7 @@
         mc:Ignorable="d"
         Title="Tutors" Height="500" Width="600" ResizeMode="CanMinimize"
         WindowStyle="None" AllowsTransparency="True">
+    
     <Window.Resources>
         <ResourceDictionary>
             <DataTemplate x:Key="TutorTemplate">
@@ -28,8 +29,8 @@
                 <ResourceDictionary Source="TitleGrid.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
-
     </Window.Resources>
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

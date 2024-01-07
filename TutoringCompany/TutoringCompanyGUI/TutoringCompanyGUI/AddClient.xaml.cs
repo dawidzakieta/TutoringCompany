@@ -18,7 +18,7 @@ using TutoringCompany;
 
 namespace TutoringCompanyGUI
 {
-    public partial class AddClient : Window
+    public partial class AddClient : WindowBase
     {
         
         private ClientList clientList;
@@ -26,8 +26,11 @@ namespace TutoringCompanyGUI
         public AddClient(ClientList clientList)
         {
             InitializeComponent();
+            TitleBar(TitleContent, "Add clients");
+
             this.clientList = clientList;
         }
+        /*
         private void addClient1_Click(object sender, RoutedEventArgs e)
         {
             decimal rate1value;
@@ -42,12 +45,13 @@ namespace TutoringCompanyGUI
                 MessageBox.Show("Invalid value for hour rate. Please enter a valid decimal number.");
             }
         }
+        */
         private void addClient2_Click(object sender, RoutedEventArgs e)
         {
             decimal rate2Value;
-            if (decimal.TryParse(rate2.Text, out rate2Value))
+            if (decimal.TryParse(clientRate.Text, out rate2Value))
             {
-                Client newClient = new Client(name2.Text, surname.Text, rate2Value, phone2.Text, email.Text, (Gender)Enum.Parse(typeof(Gender), ((ComboBoxItem)gender.SelectedItem).Content.ToString()));
+                Client newClient = new Client(clientName.Text, clientSurname.Text, rate2Value, clientPhone.Text, clientEmail.Text, (Gender)Enum.Parse(typeof(Gender), ((ComboBoxItem)clientGender.SelectedItem).Content.ToString()));
                 clientList.AddClient(newClient);
                 MessageBox.Show("Client added correctly.");
             }
