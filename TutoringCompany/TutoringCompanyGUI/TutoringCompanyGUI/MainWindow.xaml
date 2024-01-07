@@ -24,7 +24,7 @@
         <ContentControl x:Name="TitleContent" Content="{StaticResource TitleGrid}"/>
         <Grid Grid.Row="1" Background="#302c34">
             <Button x:Name="clients" Content="Clients" Margin="0,20,0,0" Style="{StaticResource MainButtons}" Click="clients_Click"/>
-            <Button x:Name="tutors" Content="Tutors"  Margin="0,90,0,0" Style="{StaticResource MainButtons}" Click="tutors_Click"/>
+            <Button x:Name="tutors" Content="..."  Margin="0,90,0,0" Style="{StaticResource MainButtons}" Click="tutors_Click"/>
             <Button x:Name="students" Content="Students" Margin="0,160,0,0" Style="{StaticResource MainButtons}"/>
             <Button x:Name="calendar" Content="Calendar" Margin="0,230,0,0" Style="{StaticResource MainButtons}"/>
         </Grid>
