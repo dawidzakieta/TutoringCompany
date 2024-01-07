@@ -16,27 +16,29 @@ using TutoringCompany;
 
 namespace TutoringCompanyGUI
 {
-    /// <summary>
-    /// Interaction logic for Students.xaml
-    /// </summary>
     public partial class Students : WindowBase
     {
         private StudentList studentList;
-
-        public Students(StudentList studentList)
+        private TutorList tutorList;
+        private ClientList clientList;
+        public Students(StudentList studentLis, TutorList tutorList, ClientList clientList)
         {
             InitializeComponent();
 
             TitleBar(TitleContent, "Students");
 
             this.studentList = studentList ?? new StudentList();
+            this.tutorList = tutorList;
+            this.clientList = clientList;
+
+
 
             studentsListBox.ItemsSource = this.studentList.Students;
         }
 
         private void addStudent_Click(object sender, RoutedEventArgs e)
         {
-            AddStudent addStudentWindow = new AddStudent(studentList, studentsListBox);
+            AddStudent addStudentWindow = new AddStudent(studentList, studentsListBox, tutorList, clientList);
             addStudentWindow.Show();
         }
 
@@ -66,8 +68,7 @@ namespace TutoringCompanyGUI
                     .Where(student =>
                         student.Name.ToLower().Contains(searchText) ||
                         student.Surname.ToLower().Contains(searchText) ||
-                        student.PhoneNumber.Contains(searchText) ||
-                        student.Email.ToLower().Contains(searchText));
+                        student.PhoneNumber.Contains(searchText));
                 studentsListBox.ItemsSource = new ObservableCollection<Student>(filteredStudents.ToList());
             }
             else studentsListBox.ItemsSource = null;

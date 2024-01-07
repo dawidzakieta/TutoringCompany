@@ -18,6 +18,7 @@ namespace TutoringCompanyGUI {
     public partial class MainWindow : WindowBase {
         private ClientList clientList;
         private TutorList tutorList;
+        private StudentList studentList;
 
         public MainWindow() {
             InitializeComponent();
@@ -32,6 +33,11 @@ namespace TutoringCompanyGUI {
         {
             Tutors tutorsWindow = new Tutors(tutorList);
             tutorsWindow.Show();
+        }
+        private void students_Click(object sender, RoutedEventArgs e)
+        {
+            Students studentsWindow = new Students(studentList, tutorList, clientList);
+            studentsWindow.Show();
         }
     }
 }
