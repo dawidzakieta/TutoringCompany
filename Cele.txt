@@ -1,0 +1,4 @@
+- Baza danych (Dawid? i mi wytłumacz ok)
+- Zamiana na strony 
+- Upiększenie kodu (Kacper)
+- Ogarnięcie comboboxów w studentach

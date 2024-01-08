@@ -5,7 +5,7 @@
         <ResourceDictionary Source="Styles.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 
-    <Grid x:Key="TitleGrid" Grid.Row="0" Background="#201c24" Height="36" VerticalAlignment="Top">
+    <Grid x:Key="TitleGrid" Grid.Row="0" Background="{StaticResource TitleBackground}" Height="36" VerticalAlignment="Top">
         <TextBlock TextAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15,0,0,0" Foreground="#d9edf9" FontSize="18"/>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Stretch">
             <Button Content="_" Width="40" VerticalAlignment="Stretch"  Style="{StaticResource TitleBarButtons}"/>
