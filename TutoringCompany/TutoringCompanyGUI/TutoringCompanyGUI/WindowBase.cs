@@ -20,7 +20,7 @@ namespace TutoringCompanyGUI {
                 TitleGrid.MouseLeftButtonDown += DragWindow;
 
                 if (TitleGrid.Children[0] is TextBlock textBlock) { textBlock.Text = title; }
-
+                
                 if (TitleGrid.Children[1] is StackPanel stackPanel) {
                     if (stackPanel.Children[0] is Button minimizeButton) { minimizeButton.Click += MinimizeWindow; }
                     if (stackPanel.Children[1] is Button closeButton) { closeButton.Click += CloseWindow; }
