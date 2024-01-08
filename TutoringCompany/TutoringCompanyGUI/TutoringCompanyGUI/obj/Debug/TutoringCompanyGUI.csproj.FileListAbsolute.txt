@@ -143,3 +143,7 @@ C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\Tutoring
 C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\Students.g.cs
 C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\AddStudent.baml
 C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\Students.baml
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\AddStudent.g.cs
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\Students.g.cs
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\AddStudent.baml
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\Students.baml
