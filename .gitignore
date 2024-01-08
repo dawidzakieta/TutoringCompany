@@ -1,0 +1,10 @@
+# Ignoruj pliki tymczasowe utworzone przez system Windows
+Thumbs.db
+Desktop.ini
+
+# Ignoruj pliki tymczasowe utworzone przez Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
