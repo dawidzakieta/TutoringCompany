@@ -2,3 +2,12 @@
 - Zamiana na strony 
 - Upiększenie kodu (Kacper)
 - Ogarnięcie comboboxów w studentach
+
+!-serializacja i deserializacja JSON D
+!-Możliwość zapisu/odczytu danych w Bazie Danych SQL. D
+!-Dodanie elementów dodatkowych tj. dzwięku K
+-Wykorzystanie interfejsów IClonable, IComparable, IEquatable – kopiowanie, sortowanie, porównywanie danych.
+-sortowanie (np klientów wdg imienia nazwiska stawki) - dodatkowy combobox
+-Kod powinien korzystać z mechanizmu interfejsów oraz klas abstrakcyjnych.
+-5. Tworzenie własnych wyjątków.
+!-stworzyc klase spotkanie zamiast przycisku kalendarz dac spotkanie z lista spotkan i add spotkanie gdzie wybiera sie ucznia date godzine - D K poprawi
