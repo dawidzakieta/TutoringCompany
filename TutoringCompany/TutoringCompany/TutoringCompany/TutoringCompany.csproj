@@ -46,17 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClientList.cs" />
+    <Compile Include="Lists\ClientList.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="Client.cs" />
     <Compile Include="Lesson.cs" />
-    <Compile Include="LessonList.cs" />
+    <Compile Include="Lists\LessonList.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs" />
-    <Compile Include="StudentList.cs" />
+    <Compile Include="Lists\StudentList.cs" />
     <Compile Include="Tutor.cs" />
-    <Compile Include="TutorList.cs" />
+    <Compile Include="Lists\TutorList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

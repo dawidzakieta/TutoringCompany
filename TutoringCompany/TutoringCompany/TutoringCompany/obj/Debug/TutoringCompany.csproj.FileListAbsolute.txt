@@ -19,3 +19,10 @@ C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\Tutoring
 C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\TutoringCompany\TutoringCompany\bin\Debug\TutoringCompany.dll.config
 C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\TutoringCompany\TutoringCompany\bin\Debug\TutoringCompany.dll
 C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\TutoringCompany\TutoringCompany\bin\Debug\TutoringCompany.pdb
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompany\TutoringCompany\bin\Debug\TutoringCompany.dll.config
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompany\TutoringCompany\bin\Debug\TutoringCompany.dll
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompany\TutoringCompany\bin\Debug\TutoringCompany.pdb
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompany\TutoringCompany\obj\Debug\TutoringCompany.csproj.AssemblyReference.cache
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompany\TutoringCompany\obj\Debug\TutoringCompany.csproj.CoreCompileInputs.cache
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompany\TutoringCompany\obj\Debug\TutoringCompany.dll
+C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompany\TutoringCompany\obj\Debug\TutoringCompany.pdb

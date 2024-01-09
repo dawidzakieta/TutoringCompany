@@ -10,6 +10,7 @@ Kacper:
 
 Nieprzypisane:
 !- Dokończenie Studentów
+!- Właściwości?? - Dokładnie throw new exception nie funkcjonuje!
 
 ---------------------------Dodatkowe (Dla Kacpra ważne):
 
