@@ -9,7 +9,7 @@
     
     <SolidColorBrush x:Key="OnHoverColor" Color="#303838"/>
     <SolidColorBrush x:Key="BrighterOnHoverColor" Color="#475454"/> <!-- Used when clicking comboBox -->
-    <Style TargetType="Button"/> <!-- Do usunięcia -->
+
     <Style x:Key="OnHover" TargetType="Button">
         <Setter Property="Background" Value="{StaticResource BrighterColor}"/>
         <Setter Property="Foreground" Value="{StaticResource Foreground}"/>
