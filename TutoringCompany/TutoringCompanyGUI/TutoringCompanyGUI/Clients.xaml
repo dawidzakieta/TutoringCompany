@@ -24,13 +24,14 @@
             </Style>
             <Style TargetType="ListBox">
                 <Setter Property="Background" Value="{StaticResource Background}"/>
+                <Setter Property="Foreground" Value="{StaticResource Foreground}"/>
                 <Setter Property="FontSize" Value="14"/>
                 <Setter Property="VerticalAlignment" Value="Bottom"/>
-                <Setter Property="Height" Value="270"/>
+                <Setter Property="Height" Value="300"/>
                 <Setter Property="Width" Value="550"/>
                 <Setter Property="BorderThickness" Value="0"/>
             </Style>
-            
+
             <DataTemplate x:Key="ClientTemplate">
                 <StackPanel Margin="0,3,0,0">
                     <TextBlock Text="{Binding Id, StringFormat={}ID: {0}}" FontWeight="Bold" Margin="0, 0, 5, 0"/>
@@ -44,14 +45,14 @@
                     <TextBlock Text="{Binding Gender}"/>
                 </StackPanel>
             </DataTemplate>
-            
-            
+
+
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Styles.xaml"/>
                 <ResourceDictionary Source="TitleGrid.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
-        
+
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
@@ -61,11 +62,12 @@
         <ContentControl x:Name="TitleContent" Content="{StaticResource TitleGrid}"/>
         <Grid Grid.Row="1">
 
-            <ListBox x:Name="clientsListBox" ItemTemplate="{StaticResource ClientTemplate}" Margin="0, 0, 0, 40"/>
-            <Button  x:Name="addClient"    Content="Add Client"    Click="addClient_Click"    Width="200" HorizontalAlignment="Left"  Margin="70, 70, 0, 0"/>
-            <Button  x:Name="deleteClient" Content="Delete Client" Click="deleteClient_Click" Width="200" HorizontalAlignment="Right" Margin="0, 70, 70, 0"/>
+            <ListBox x:Name="clientsListBox" ItemTemplate="{StaticResource ClientTemplate}" Margin="25,140,25,25"/>
+            <Button  x:Name="addClient"    Content="Add Client"    Click="addClient_Click"    Width="170" HorizontalAlignment="Left"  Margin="27,70,0,0"/>
+            <Button  x:Name="deleteClient" Content="Delete Client" Click="deleteClient_Click" Width="170" HorizontalAlignment="Right" Margin="0,70,25,0"/>
+            <Button  x:Name="sortClient"    Content="Sort Client"    Click="sortClient_Click" Width="170" HorizontalAlignment="Center" Margin="0,70,0,0"/>
             <TextBox x:Name="searchBox" Margin="0,15,0,0" Text="Search clients" TextChanged="searchBox_TextChanged" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"/>
-            
+
         </Grid>
     </Grid>
 </src:WindowBase>

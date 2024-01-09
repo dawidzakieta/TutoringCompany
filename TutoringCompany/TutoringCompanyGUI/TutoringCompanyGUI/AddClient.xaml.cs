@@ -20,10 +20,8 @@ namespace TutoringCompanyGUI
 {
     public partial class AddClient : WindowBase
     {
-        
         private ClientList clientList;
         private ListBox clientsListBox;
-
         public AddClient(ClientList clientList, ListBox clientsListBox)
         {
             InitializeComponent();
@@ -39,7 +37,7 @@ namespace TutoringCompanyGUI
             {
                 Client newClient = new Client(clientName.Text, clientSurname.Text, rate2Value, clientPhone.Text, clientEmail.Text, (Gender)Enum.Parse(typeof(Gender), ((ComboBoxItem)clientGender.SelectedItem).Content.ToString()));
                 clientList.AddClient(newClient);
-                clientsListBox.ItemsSource = new ObservableCollection<Client>(clientList.Clients);
+                clientsListBox.ItemsSource = clientList.Clients;
                 MessageBox.Show("Client added correctly.");
             }
             else
