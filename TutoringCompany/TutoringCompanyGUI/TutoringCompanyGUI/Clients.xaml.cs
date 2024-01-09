@@ -47,6 +47,10 @@ namespace TutoringCompanyGUI {
                 MessageBox.Show("Please select a client to remove.");
             }
         }
+        private void sortClient_Click(object sender, RoutedEventArgs e) { 
+            clientList.Sort();
+            clientsListBox.ItemsSource = clientList.Clients;
+        }
 
         private void searchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -75,6 +79,5 @@ namespace TutoringCompanyGUI {
             }
         }
         #endregion
-        
     }
 }
