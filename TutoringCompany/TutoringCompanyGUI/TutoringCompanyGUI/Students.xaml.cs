@@ -21,7 +21,7 @@ namespace TutoringCompanyGUI
         private StudentList studentList;
         private TutorList tutorList;
         private ClientList clientList;
-        public Students(StudentList studentLis, TutorList tutorList, ClientList clientList)
+        public Students(StudentList studentList, TutorList tutorList, ClientList clientList)
         {
             InitializeComponent();
 
