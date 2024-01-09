@@ -1,17 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using TutoringCompany;
 
 namespace TutoringCompanyGUI
@@ -35,7 +26,7 @@ namespace TutoringCompanyGUI
         }
         private void addStudent2_Click(object sender, RoutedEventArgs e)
         {
-            Student newStudent = new Student(studentName.Text, studentSurname.Text, studentPhone.Text, (Class)Enum.Parse(typeof(Class), studentClass.Text), (Client)studentClient.SelectedItem, Tutor(studentTutor),(Gender)Enum.Parse(typeof(Gender), ((ComboBoxItem)studentGender.SelectedItem).Content.ToString()));
+            Student newStudent = new Student(studentName.Text, studentSurname.Text, studentPhone.Text, (Class)Enum.Parse(typeof(Class), studentClass.Text), (Client)studentClient.SelectedItem, (Tutor)studentTutor.SelectedItem, (Gender)Enum.Parse(typeof(Gender), ((ComboBoxItem)studentGender.SelectedItem).Content.ToString()));
             studentList.AddStudent(newStudent);
             studentsListBox.ItemsSource = new ObservableCollection<Student>(studentList.Students);
             MessageBox.Show("Student added correctly.");
@@ -43,21 +34,36 @@ namespace TutoringCompanyGUI
         private void studentClient_KeyUp(object sender, System.Windows.Input.KeyEventArgs e)
         {
             var filter = studentClient.Text.ToLower();
-            var filteredData = clientList.Clients
-                .Where(client => client.Name.ToLower().Contains(filter) || client.Surname.ToLower().Contains(filter)).ToList();
-            studentClient.ItemsSource = filteredData;
-            studentClient.IsDropDownOpen = true;
-        }
+            if (clientList != null)
+            {
+                var filteredData = clientList.Clients
+                    .Where(client => client.Name.ToLower().Contains(filter) || client.Surname.ToLower().Contains(filter)).ToList();
 
-        private Tutor Tutor(TextBox studentTutor)
-        {
-            
-            throw new NotImplementedException();
+                studentClient.ItemsSource = filteredData;
+                studentClient.IsDropDownOpen = true;
+            }
+            else
+            {
+                studentClient.ItemsSource = null;
+                studentClient.IsDropDownOpen = false;
+            }
         }
-        
-        private Client Client(ComboBox studentClient)
+        private void studentTutor_KeyUp(object sender, System.Windows.Input.KeyEventArgs e)
         {
-            throw new NotImplementedException();
+            var filter = studentTutor.Text.ToLower();
+            if (tutorList != null)
+            {
+                var filteredData = tutorList.Tutors
+                    .Where(tutor => tutor.Name.ToLower().Contains(filter) || tutor.Surname.ToLower().Contains(filter)).ToList();
+
+                studentTutor.ItemsSource = filteredData;
+                studentTutor.IsDropDownOpen = true;
+            }
+            else
+            {
+                studentTutor.ItemsSource = null;
+                studentTutor.IsDropDownOpen = false;
+            }
         }
     }
 }

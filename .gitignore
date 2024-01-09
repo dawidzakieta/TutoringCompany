@@ -8,3 +8,5 @@ Desktop.ini
 *.userosscache
 *.sdf
 *.opensdf
+*.vsidx
+*.lock
