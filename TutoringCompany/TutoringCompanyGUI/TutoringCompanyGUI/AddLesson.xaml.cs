@@ -1,17 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using TutoringCompany;
 
 namespace TutoringCompanyGUI
@@ -38,7 +29,7 @@ namespace TutoringCompanyGUI
             if (DateTime.TryParse(lessonDate.Text, out selectedDate) && DateTime.TryParse(lessonTime.Text, out selectedTime))
             {
                 DateTime combinedDateTime = new DateTime(selectedDate.Year, selectedDate.Month, selectedDate.Day, selectedTime.Hour, selectedTime.Minute, selectedTime.Second);
-                Lesson newLesson = new Lesson(Client(lessonStudent.SelectedItem), combinedDateTime);
+                Lesson newLesson = new Lesson((Student)lessonStudent.SelectedItem, combinedDateTime);
                 lessonList.AddLesson(newLesson);
                 lessonsListBox.ItemsSource = new ObservableCollection<Lesson>(lessonList.Lessons);
                 MessageBox.Show("Lesson added correctly.");
@@ -66,11 +57,5 @@ namespace TutoringCompanyGUI
                 lessonStudent.IsDropDownOpen = false;
             }
         }
-
-        private Student Client(object selectedItem)
-        {
-            throw new NotImplementedException();
-        }
-
     }
 }
