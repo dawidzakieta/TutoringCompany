@@ -14,6 +14,7 @@
             <Style TargetType="Grid">
                 <Setter Property="Background" Value="{StaticResource Background}"/>
             </Style>
+            <Style TargetType="ComboBox" BasedOn="{StaticResource ComboBox}"/>
             <Style TargetType="Button" BasedOn="{StaticResource MainButtons}"/>
             <Style TargetType="TextBox" BasedOn="{StaticResource TextBox}">
                 <Setter Property="VerticalAlignment" Value="Top"/>
@@ -37,7 +38,7 @@
                     <TextBlock Text="{Binding Id, StringFormat={}ID: {0}}" FontWeight="Bold" Margin="0, 0, 5, 0"/>
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="{Binding Name}" Margin="0, 0, 5, 0"/>
-                        <TextBlock Text="{Binding Surname}" />
+                        <TextBlock Text="{Binding Surname}"/>
                     </StackPanel>
                     <TextBlock Text="{Binding PhoneNumber, StringFormat='Phone: {0:C}'}"/>
                     <TextBlock Text="{Binding Email, StringFormat='Email: {0:C}'}"/>
@@ -63,7 +64,7 @@
         <Grid Grid.Row="1">
 
             <ListBox x:Name="clientsListBox" ItemTemplate="{StaticResource ClientTemplate}" Margin="25,140,25,25"/>
-            <Button  x:Name="addClient"    Content="Add Client"    Click="addClient_Click"    Width="170" HorizontalAlignment="Left"  Margin="27,70,0,0"/>
+            <Button  x:Name="addClient"    Content="Add Client"    Click="addClient_Click"    Width="170" HorizontalAlignment="Left"  Margin="25,70,0,0"/>
             <Button  x:Name="deleteClient" Content="Delete Client" Click="deleteClient_Click" Width="170" HorizontalAlignment="Right" Margin="0,70,25,0"/>
             <Button  x:Name="sortClient"    Content="Sort Client"    Click="sortClient_Click" Width="170" HorizontalAlignment="Center" Margin="0,70,0,0"/>
             <TextBox x:Name="searchBox" Margin="0,15,0,0" Text="Search clients" TextChanged="searchBox_TextChanged" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"/>

@@ -39,7 +39,11 @@ namespace TutoringCompanyGUI
                 MessageBox.Show("Please select a tutor to remove.");
             }
         }
-
+        private void sortTutor_Click(object sender, RoutedEventArgs e)
+        {
+            tutorList.Sort();
+            tutorsListBox.ItemsSource = tutorList.Tutors;
+        }
         private void searchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             string searchText = searchBox.Text.ToLower();

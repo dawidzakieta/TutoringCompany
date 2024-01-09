@@ -45,7 +45,11 @@ namespace TutoringCompanyGUI
                 MessageBox.Show("Please select a student to remove.");
             }
         }
-
+        private void sortStudent_Click(object sender, RoutedEventArgs e)
+        {
+            studentList.Sort();
+            studentsListBox.ItemsSource = studentList.Students;
+        }
         private void searchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             string searchText = searchBox.Text.ToLower();

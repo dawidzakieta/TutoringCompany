@@ -42,7 +42,11 @@ namespace TutoringCompanyGUI
                 MessageBox.Show("Please select a lesson to remove.");
             }
         }
-
+        private void sortLesson_Click(object sender, RoutedEventArgs e)
+        {
+            lessonList.Sort();
+            lessonsListBox.ItemsSource = lessonList.Lessons;
+        }
         private void searchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             string searchText = searchBox.Text.ToLower();
