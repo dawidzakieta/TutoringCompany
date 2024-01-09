@@ -43,10 +43,19 @@ namespace TutoringCompanyGUI
         private void studentClient_KeyUp(object sender, System.Windows.Input.KeyEventArgs e)
         {
             var filter = studentClient.Text.ToLower();
-            var filteredData = clientList.Clients
-                .Where(client => client.Name.ToLower().Contains(filter) || client.Surname.ToLower().Contains(filter)).ToList();
-            studentClient.ItemsSource = filteredData;
-            studentClient.IsDropDownOpen = true;
+            if (clientList != null)
+            {
+                var filteredData = clientList.Clients
+                    .Where(client => client.Name.ToLower().Contains(filter) || client.Surname.ToLower().Contains(filter)).ToList();
+
+                studentClient.ItemsSource = filteredData;
+                studentClient.IsDropDownOpen = true;
+            }
+            else
+            {
+                studentClient.ItemsSource = null;
+                studentClient.IsDropDownOpen = false;
+            }
         }
 
         private Tutor Tutor(TextBox studentTutor)
