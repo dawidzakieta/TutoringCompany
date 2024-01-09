@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\App.xaml
-9-1158995093
+11-1997378277
 
-131272556167
+151227937515
 14-622449439
-AddClient.xaml;AddStudent.xaml;AddTutor.xaml;Clients.xaml;MainWindow.xaml;Students.xaml;Styles.xaml;TitleGrid.xaml;Tutors.xaml;
+AddClient.xaml;AddLesson.xaml;AddStudent.xaml;AddTutor.xaml;Clients.xaml;Lessons.xaml;MainWindow.xaml;Students.xaml;Styles.xaml;TitleGrid.xaml;Tutors.xaml;
 
 True
 

@@ -31,7 +31,7 @@
             <Button x:Name="tutors"     Content="Tutors"    Margin="0,90,0,0"  Click="tutors_Click"/>
             <Button x:Name="clients"    Content="Clients"   Margin="0,20,0,0"  Click="clients_Click"/>
             <Button x:Name="students"   Content="Students"  Margin="0,160,0,0" Click="students_Click"/>
-            <Button x:Name="calendar"   Content="Calendar"  Margin="0,230,0,0"/>
+            <Button x:Name="lessons"    Content="Lessons"   Margin="0,230,0,0" Click="lessons_Click"/>
         </Grid>
     </Grid>
 </src:WindowBase>
