@@ -12,9 +12,15 @@ DEBUG;TRACE
 C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\App.xaml
 11-1997378277
 
+<<<<<<< HEAD
 14-693840606
 14-622449439
 AddClient.xaml;AddLesson.xaml;AddStudent.xaml;AddTutor.xaml;Clients.xaml;Lessons.xaml;MainWindow.xaml;Students.xaml;Styles.xaml;TitleGrid.xaml;Tutors.xaml;
+=======
+131272556167
+14307334658
+AddClient.xaml;AddStudent.xaml;AddTutor.xaml;Clients.xaml;MainWindow.xaml;Students.xaml;Styles.xaml;TitleGrid.xaml;Tutors.xaml;
+>>>>>>> ea53bb7d963d60eab50c0c562ace789b6472142d
 
-False
+True
 

@@ -2,7 +2,7 @@
 Thumbs.db
 Desktop.ini
 
-# Ignoruj pliki tymczasowe utworzone przez Visual Studio
+# Ignorowanie plików VS 2022
 *.suo
 *.user
 *.userosscache
