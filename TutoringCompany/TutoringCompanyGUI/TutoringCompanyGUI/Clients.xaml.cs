@@ -29,7 +29,6 @@ namespace TutoringCompanyGUI {
 
             clientsListBox.ItemsSource = this.clientList.Clients;
         }
-
         private void addClient_Click(object sender, RoutedEventArgs e)
         {
             AddClient addClientWindow = new AddClient(clientList, clientsListBox);

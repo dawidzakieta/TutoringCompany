@@ -61,8 +61,9 @@
         <ContentControl x:Name="TitleContent" Content="{StaticResource TitleGrid}"/>
         <Grid Grid.Row="1">
             <ListBox x:Name="tutorsListBox" ItemTemplate="{StaticResource TutorTemplate}"  Margin="0, 0, 0, 40"/>
-            <Button x:Name="addTutor"    Content="Add Tutor"    Click="addTutor_Click"    Width="200" HorizontalAlignment="Left"  Margin="70, 70, 0, 0" Style="{StaticResource MainButtons}"/>
-            <Button x:Name="deleteTutor" Content="Delete Tutor" Click="deleteTutor_Click" Width="200" HorizontalAlignment="Right" Margin="0, 70, 70, 0" Style="{StaticResource MainButtons}"/>
+            <Button x:Name="addTutor"    Content="Add Tutor"    Click="addTutor_Click"    Width="170" HorizontalAlignment="Left"  Margin="25, 70, 0, 0" Style="{StaticResource MainButtons}"/>
+            <Button x:Name="deleteTutor" Content="Delete Tutor" Click="deleteTutor_Click" Width="170" HorizontalAlignment="Right" Margin="0, 70, 25, 0" Style="{StaticResource MainButtons}"/>
+            <Button  x:Name="sortTutor"    Content="Sort Tutor"    Click="sortTutor_Click" Width="170" HorizontalAlignment="Center" Margin="0,70,0,0"/>
             <TextBox x:Name="searchBox"   Text="Search Tutors"   TextChanged="searchBox_TextChanged" GotFocus="TextBox_GotFocus"  Margin="0,15,0,0"/>
         </Grid>
     </Grid>
