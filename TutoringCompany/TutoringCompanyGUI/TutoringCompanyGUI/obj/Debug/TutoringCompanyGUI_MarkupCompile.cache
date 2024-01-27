@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\
+C:\Users\Dell Precision\OneDrive\Pulpit\Projekt\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\
 TutoringCompanyGUI
 none
 false
 DEBUG;TRACE
-C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\App.xaml
+C:\Users\Dell Precision\OneDrive\Pulpit\Projekt\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\App.xaml
 11-1997378277
 
-14-693840606
-1191261236663
+151227937515
+1201582164470
 AddClient.xaml;AddLesson.xaml;AddStudent.xaml;AddTutor.xaml;Clients.xaml;Lessons.xaml;MainWindow.xaml;Students.xaml;Styles.xaml;TitleGrid.xaml;Tutors.xaml;
 
-False
+True
 

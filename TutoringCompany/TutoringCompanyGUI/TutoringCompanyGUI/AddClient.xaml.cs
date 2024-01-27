@@ -5,10 +5,18 @@ using TutoringCompany;
 
 namespace TutoringCompanyGUI
 {
+    /// <summary>
+    /// The AddClient class represents a window in the Tutoring Company GUI application for adding new clients.
+    /// </summary>
     public partial class AddClient : WindowBase
     {
         private ClientList clientList;
         private ListBox clientsListBox;
+        /// <summary>
+        /// Initializes a new instance of the AddClient class.
+        /// </summary>
+        /// <param name="clientList">The ClientList object that manages the list of clients.</param>
+        /// <param name="clientsListBox">The ListBox control displaying the list of clients.</param>
         public AddClient(ClientList clientList, ListBox clientsListBox)
         {
             InitializeComponent();
@@ -17,6 +25,12 @@ namespace TutoringCompanyGUI
             this.clientList = clientList;
             this.clientsListBox = clientsListBox;
         }
+        // <summary>
+        /// Event handler for the "addClient2_Click" event, triggered when the user clicks the "Add Client" button.
+        /// Validates input, creates a new Client object, adds it to the clientList, updates the clientsListBox, and shows a confirmation message.
+        /// </summary>
+        /// <param name="sender">The object that raised the event.</param>
+        /// <param name="e">Event arguments.</param>
         private void addClient2_Click(object sender, RoutedEventArgs e)
         {
             decimal rate2Value;

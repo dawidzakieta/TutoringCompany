@@ -26,3 +26,13 @@ C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompany\Tutoring
 C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompany\TutoringCompany\obj\Debug\TutoringCompany.csproj.CoreCompileInputs.cache
 C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompany\TutoringCompany\obj\Debug\TutoringCompany.dll
 C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompany\TutoringCompany\obj\Debug\TutoringCompany.pdb
+C:\Users\Dell Precision\OneDrive\Pulpit\Projekt\TutoringCompany\TutoringCompany\TutoringCompany\bin\Debug\TutoringCompany.dll.config
+C:\Users\Dell Precision\OneDrive\Pulpit\Projekt\TutoringCompany\TutoringCompany\TutoringCompany\bin\Debug\TutoringCompany.dll
+C:\Users\Dell Precision\OneDrive\Pulpit\Projekt\TutoringCompany\TutoringCompany\TutoringCompany\bin\Debug\TutoringCompany.pdb
+C:\Users\Dell Precision\OneDrive\Pulpit\Projekt\TutoringCompany\TutoringCompany\TutoringCompany\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dell Precision\OneDrive\Pulpit\Projekt\TutoringCompany\TutoringCompany\TutoringCompany\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dell Precision\OneDrive\Pulpit\Projekt\TutoringCompany\TutoringCompany\TutoringCompany\obj\Debug\TutoringCompany.csproj.AssemblyReference.cache
+C:\Users\Dell Precision\OneDrive\Pulpit\Projekt\TutoringCompany\TutoringCompany\TutoringCompany\obj\Debug\TutoringCompany.csproj.CoreCompileInputs.cache
+C:\Users\Dell Precision\OneDrive\Pulpit\Projekt\TutoringCompany\TutoringCompany\TutoringCompany\obj\Debug\TutoringCompany.csproj.CopyComplete
+C:\Users\Dell Precision\OneDrive\Pulpit\Projekt\TutoringCompany\TutoringCompany\TutoringCompany\obj\Debug\TutoringCompany.dll
+C:\Users\Dell Precision\OneDrive\Pulpit\Projekt\TutoringCompany\TutoringCompany\TutoringCompany\obj\Debug\TutoringCompany.pdb

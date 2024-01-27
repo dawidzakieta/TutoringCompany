@@ -1,11 +1,7 @@
 ﻿using System.Windows;
+using TutoringCompany;
 
-namespace TutoringCompanyGUI
-{
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
-    public partial class App : Application
-    {
-    }
+namespace TutoringCompanyGUI {
+
+    public partial class App : Application {}
 }

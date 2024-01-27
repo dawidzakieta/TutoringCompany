@@ -22,5 +22,11 @@ namespace TutoringCompany
         {
             tutors.Remove(tutor);
         }
+        public void Sort()
+        {
+            ObservableCollection<Tutor> sortedTutors = new ObservableCollection<Tutor>(tutors.OrderBy(tutor => tutor.Surname));
+            tutors.Clear();
+            tutors = sortedTutors;
+        }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
+using Newtonsoft.Json;
 using System.Threading.Tasks;
 
 namespace TutoringCompany
@@ -21,6 +22,12 @@ namespace TutoringCompany
         public void RemoveLesson(Lesson lesson)
         {
             lessons.Remove(lesson);
+        }
+        public void Sort()
+        {
+            ObservableCollection<Lesson> sortedLessons = new ObservableCollection<Lesson>(lessons.OrderBy(lesson => lesson.Student.Surname));
+            lessons.Clear();
+            lessons = sortedLessons;
         }
     }
 }

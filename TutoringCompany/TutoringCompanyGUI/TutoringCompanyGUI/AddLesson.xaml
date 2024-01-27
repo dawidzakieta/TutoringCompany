@@ -43,8 +43,6 @@
 
             <ComboBox x:Name="lessonStudent" HorizontalAlignment="Left" Margin="200,80,0,0" 
               SelectedItem="{Binding Student}" VerticalAlignment="Top" Width="300" Height="40" FontSize="18" 
-              IsEditable="True" TextSearch.TextPath="FullName" StaysOpenOnEdit="True" 
-              IsTextSearchEnabled="False" KeyUp="lessonStudent_KeyUp"
               ItemTemplate="{StaticResource AddLessonTemplate}" />
             <TextBox x:Name="lessonDate" HorizontalAlignment="Left" Margin="200,200,0,0" VerticalAlignment="Top" Width="300" Height="40" />
             <TextBox x:Name="lessonTime" HorizontalAlignment="Left" Margin="200,320,0,0"  VerticalAlignment="Top" Width="300" Height="40" />
