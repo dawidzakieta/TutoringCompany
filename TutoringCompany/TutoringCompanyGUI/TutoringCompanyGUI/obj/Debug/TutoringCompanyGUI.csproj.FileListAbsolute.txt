@@ -160,3 +160,5 @@ C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\Tutor
 C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\obj\Debug\Lessons.baml
 C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Kacper\Desktop\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dell Precision\OneDrive\Pulpit\TutoringCompany\TutoringCompany\TutoringCompanyGUI\TutoringCompanyGUI\bin\Debug\Newtonsoft.Json.xml
