@@ -1,6 +1,9 @@
-Program został stworzony w duecie Dawid Żakieta & Kacper Grabowski. Prezentuje aplikację do zarządzania prywatnym przedsiębiorstwem świadczącym usługi korepetycji. 
+Program został stworzony w języku C#. Prezentuje aplikację do zarządzania prywatnym przedsiębiorstwem świadczącym usługi korepetycji. 
 Aplikacja została zaimplementowana w języku C z użyciem technologii Windows Presentation Foundation (WPF) do tworzenia interfejsu graficznego. 
-Poniżej przedstawiam podsumowanie różnych aspektów tego programu:
+
+Autorzy: Dawid Żakieta & Kacper Grabowski
+
+Poniżej przedstawiamy podsumowanie różnych aspektów tego programu:
 
 Funkcje Aplikacji:
 
@@ -37,7 +40,7 @@ Funkcje Dodatkowe:
 - Obsługa Błędów:
  - Program zawiera obsługę błędów, która informuje użytkownika o nieprawidłowych danych lub operacjach.
 
- Opis Kluczowych Klas:
+Opis Kluczowych Klas:
  
 - ClientList, TutorList, StudentList, LessonList:
   - Klasy reprezentujące listy klientów, nauczycieli, studentów i lekcji.
@@ -49,7 +52,7 @@ Funkcje Dodatkowe:
 - MainWindow:
   - Główne okno programu, inicjalizujące listy i obsługujące nawigację między różnymi sekcjami.
 
- Podsumowanie:
+Podsumowanie:
  
 Program jest aplikacją do zarządzania firmą korepetorską, oferującą intuicyjny interfejs graficzny i funkcje umożliwiające kontrolę nad klientami, nauczycielami, studentami i lekcjami. Działa w oparciu o zasadę obiektowości i wykorzystuje funkcje języka C oraz technologii WPF, aby dostarczyć użytkownikowi efektywne narzędzie do efektywnego prowadzenia biznesu.
 
